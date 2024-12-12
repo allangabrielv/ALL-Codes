@@ -1,2 +1,0 @@
-# noidlepython
-Python Codes Repository
