@@ -18,7 +18,7 @@ collection_of_words = [
 selected_word=collection_of_words[random.randint(0,99)]
 
 
-print("\n------ JOGO DA FORCA ------\n")
+print("\n------- JOGO DA FORCA -------\n")
 
 secretword=str(selected_word)
 secretwordbackup=str(secretword)
@@ -34,7 +34,7 @@ print(f"Tamanho da Palavra: {len(secretword)} letras\n")
 
 
 while True:
-    print ("---------------------------")
+    print ("-----------------------------")
     letter=input(f"Insira a letra (Tentativa {count}): ")
 
     if len(letter)>1:
